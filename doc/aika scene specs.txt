@@ -1,0 +1,44 @@
+-----------
+AIKA SCENE
+-----------
+Revision:
+0.1
+- Initial Version
+
+-------------------------------
+FILE EXAMPLE
+-------------------------------
+
+<?xml version="1.0"?>
+<AKSCENE>
+   <!-- Camera list -->
+   <cameralist>
+      <camera name="Camera">
+         <translate x="0.0" y="0.0" z="0.0" />
+         <rotate angle="0.0" x="0.0" y="0.0" z="0.0" />
+         <target x="0.0" y="0.0" z="0.0" />
+         <fov value="37" />
+         <near value="10" />
+         <far value="2000" />
+      </camera>
+   </cameralist>
+   <!-- Light list -->
+   <lightlist>
+      <light name="Light">
+         <translate x="-1.5" y="-80.0" z="-325.0" />
+         <color r="1" g="1" b="1" a="1" />
+         <specular r="0" g="0" b="0" a="0" />
+         <ambient r="0" g="0" b="0" a="0" />
+         <type value="Point" /> -> We could use "Point", "Spot" or "Directional"
+         <spotdata exponent="80.0" cutoff="80.0" /> -> this is only used with spot light
+      </light>
+   </lightlist>
+   <!-- Mesh list -->
+   <meshlist>
+      <mesh name="Mesh" filename="file.akg">
+         <translate x="-100.5" y="-80.0" z="-525.0" />
+         <rotate angle="0.0" x="1.0" y="0.0" z="0.0" />
+         <scale x="1.0" y="1.0" z="1.0" />
+      </mesh>
+   </meshlist>
+</AKSCENE>

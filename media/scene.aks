@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<AKSCENE>
+   <!-- Camera list -->
+   <cameralist>
+      <camera name="Camera">
+         <translate x="0.0" y="0.0" z="5.0" />
+         <rotate angle="0.0" x="0.0" y="0.0" z="0.0" />
+         <target x="0.0" y="0.5" z="0.0" />
+         <fov value="43" />
+         <near value="10" />
+         <far value="2000" />
+      </camera>
+   </cameralist>
+   <!-- Light list -->
+   <lightlist>
+      <light name="Light">
+         <translate x="10.0" y="-100.0" z="-17.0" />
+         <color r="1" g="1" b="1" a="1" />
+         <specular r="0" g="0" b="0" a="0" />
+         <ambient r="0" g="0" b="0" a="0" />
+         <type value="Point" />
+         <spotdata exponent="80.0" cutoff="80.0" />
+      </light>
+      <light name="Light">
+         <translate x="10.0" y="100.0" z="-17.0" />
+         <color r="0" g="1" b="1" a="1" />
+         <specular r="1" g="1" b="1" a="1" />
+         <ambient r="1" g="1" b="1" a="1" />
+         <type value="Point" />
+         <spotdata exponent="80.0" cutoff="100.0" />
+      </light>
+   </lightlist>
+   <!-- Mesh list -->
+   <meshlist>
+      <mesh name="Skydome" filename="sky.akg">
+         <translate x="0.5" y="-3.0" z="-13.0" />
+         <rotate angle="0.0" x="1.0" y="0.0" z="0.0" />
+         <scale x="45.0" y="45.0" z="45.0" />
+      </mesh>
+      <mesh name="Duck" filename="duck.akg">
+         <translate x="-10.0" y="-50.0" z="-422.0" />
+         <rotate angle="0.0" x="0.0" y="1.0" z="0.0" />
+         <scale x="1.0" y="1.0" z="1.0" />
+      </mesh>
+   </meshlist>
+</AKSCENE>

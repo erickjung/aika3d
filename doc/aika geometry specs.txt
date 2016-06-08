@@ -1,0 +1,36 @@
+--------------
+AIKA GEOMETRY
+--------------
+Revision:
+0.1
+- Initial Version
+
+-------------------------------
+FILE SCHEMA
+-------------------------------
+-- common --
+char            magic[4] -> "AKFG"
+unsigned int    version
+
+unsigned int    indiceSize
+
+-- vertex --
+unsigned int    vertexSize
+float           vertexData[vertexSize]
+unsigned int    vertexIndice[indiceSize]
+
+unsigned int    normalSize
+float           normalData[normalSize]
+unsigned int    normalIndice[indiceSize]
+
+-- texture --
+unsigned int    imageQuantity
+unsigned int    imageNameSize
+char            imageFileName[imageNameSize]
+
+unsigned int    textureDataSize
+float           textureData[textureDataSize]
+unsigned int    textureIndice[indiceSize]
+
+
+
