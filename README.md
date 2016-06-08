@@ -5,7 +5,7 @@ Aika3d is a simple 3d engine, written in C++ (at 2007). The main proposal of the
 ## Features
 
 ```
-- Clean, generic and simple API for math, io, utils, etc
+- Clean, generic and simple API
 - Platform agnostic
 - OpenGL renderer
 - Mesh and Scene data types
