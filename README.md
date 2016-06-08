@@ -1,6 +1,6 @@
 # Aika 3d engine
 
-Aika is a simple 3d engine, written in C++ back at 2007. The main proposal of the engine was to create a portable and easy of use framework to create multimedia content, e.g. games.
+Aika3d is a simple 3d engine, written in C++ (at 2007). The main proposal of the engine was to create a portable and easy of use framework to create multimedia content, e.g. games.
 
 ## Features
 
