@@ -2,6 +2,8 @@
 
 Aika3d is a simple 3d engine, written in C++ (at 2007). The main proposal of the engine was to create a portable and easy of use framework to create multimedia content, e.g. games.
 
+[![aika3d](https://github.com/erickjung/aika3d/blob/master/media/screenshot.png?raw=true)](#)
+
 ## Features
 
 ```
